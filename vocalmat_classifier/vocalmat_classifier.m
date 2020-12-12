@@ -43,18 +43,23 @@ fprintf('\n')
 %Grimsley, Jasmine, Marie Gadziola, and Jeff James Wenstrup. "Automated classification of mouse pup isolation syllables: from cluster analysis to an Excel-based �mouse pup syllable classification calculator�."
 %Frontiers in behavioral neuroscience 6 (2013): 89.
 %     disp('Verify vocalizations for steps')
-stepup_count=[];
-stepdown_count=[];
+%stepup_count=[];
+%stepdown_count=[];
 harmonic_count=[];
+%split_count=[];
+other_count=[];
 flat_count=[];
-chevron_count=[];
-revchevron_count=[];
-downfm_count=[];
-upfm_count=[];
-complex_count=[];
+trill_count=[];
+
+
+%chevron_count=[];
+%revchevron_count=[];
+%downfm_count=[];
+%upfm_count=[];
+%complex_count=[];
 noisy_vocal_count=[];
 nonlinear_count = [];
-short_count = [];
+%short_count = [];
 noise_count = [];
 noise_count_dist = [];
 corr_yy2_yy3 = [];
